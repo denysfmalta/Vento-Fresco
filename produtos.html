@@ -9,23 +9,23 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css">
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"></script>
   <script src="https://unpkg.com/vue"></script>
   <style>
-    .img{
+    .img {
       width: 50px;
       opacity: 50%;
-    animation: rotation 2s infinite linear;
+      animation: rotation 2s infinite linear;
     }
 
     @keyframes rotation {
-    from {
-      transform: rotate(0deg);
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(359deg);
+      }
     }
-    to {
-      transform: rotate(359deg);
-    }
-  }
   </style>
 </head>
 
@@ -33,28 +33,78 @@
   <div id="app">
     <div class="container">
     <div class="header_section header_bg">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-         <a href="index.html" ><img src="./assets/4551810.png" class="img"></a >
-         <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-         <span class="navbar-toggler-icon"></span>
-         </button>
-         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto ml-auto">
-               <li class="nav-item">
-                  <a class="nav-link" href="index.html">Início</a>
-               </li>
-               <li class="nav-item active">
-                  <a class="nav-link" href="produtos.html">Produtos</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="login.html">Login</a>
-               </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="cadastro.html">Cadastro</a>
-               </li>
-            </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-success bg-gradient">
+        <a href="index.html"><img src="./assets/4551810.png" class="img"></a>
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Início</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cadastro.html">Cadastro</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+            <a><img class="img-thumbnail" src="./assets/1.jpg"></a>          
+          </div>
+          <div class="col-sm">
+            <a><img class="img-thumbnail" src="./assets/1.jpg"></a>          
+          </div>
+          <div class="col-sm">
+            <a><img class="img-thumbnail" src="./assets/1.jpg"></a>          
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-sm">
+              <a><img class="img-thumbnail" src="./assets/1.jpg"></a>          
+            </div>
+            <div class="col-sm">
+              <a><img class="img-thumbnail" src="./assets/1.jpg"></a>          
+            </div>
+            <div class="col-sm">
+              <a><img class="img-thumbnail" src="./assets/1.jpg"></a>          
+            </div>
+          </div>
+            <div class="row">
+              <div class="col-sm">
+                <a><img class="img-thumbnail" src="./assets/1.jpg"></a>          
+              </div>
+              <div class="col-sm">
+                <a><img class="img-thumbnail" src="./assets/1.jpg"></a>          
+              </div>
+              <div class="col-sm">
+                <a><img class="img-thumbnail" src="./assets/1.jpg"></a>          
+              </div>
+            </div>
+    </div>
+    <footer class="bg-dark text-center text-white">
+    <section class="mb-4">
+      <p>
+      Denys Ferreira Malta
+      </p>
+    </section>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+Fatec Franca 2023
   </div>
-</div>
+
+</footer>
+
+  </div>
+
   <script src="app.js"></script>
 </body>
 
